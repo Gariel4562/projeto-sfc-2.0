@@ -7,7 +7,7 @@ let img = document.createElement('img')
 img.setAttribute('id', 'foto')
 
 if(t.length==0) {
-    window.alert('Digite o nome do torneio')
+    window.alert('Digite o nome do Jogador')
 }
 
 switch(t) {
