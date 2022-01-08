@@ -91,6 +91,16 @@ switch(t) {
                                     </ul>`
                                     img.setAttribute('src', 'imagens/aren.jpg')
                                     break;
+                                    case 'Araken' :
+                                    res.innerHTML = `<h1>Araken Patusca
+                                    </h1> <ul> <br> <br> Feitos pelo Santos fc : <br> <br> <li> Jogou pelo Santos nos anos de 1923 - 1929, 1935 - 1936 </li>  <li> Fez 184 Gols Jogando pelo Santos. </li> <br> Titulos que Conquistou Jogando pelo Santos : <br> <br> <li> Conquistou o primeiro campeonato paulista do Santos fc que seria também o primeiro titulo oficial do clube. </li> 
+                            
+                            
+                                  </ul>
+                                    </ul>`
+                                    img.setAttribute('src', 'imagens/araken.jpg')
+                                    break;
+
                                     default:
                                         res.innerHTML = `<br>O Jogador não existe nos nossos dados ou você digitou errado, digite igual está na lista acima para obter informações do jogador do Peixão.<br>`
                                         break;
