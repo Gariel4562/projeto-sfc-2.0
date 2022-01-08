@@ -88,14 +88,16 @@ div {
 }
 
 main {
-    max-width:1400px;
+    max-width:600px;
     height: 80px;
     background-color: white;
     margin:auto;
     text-align: center;
     margin-top:10px;
     margin-bottom:20px;
-    padding:50px;
+    padding-bottom:60px;
+    padding-top:20px;
+    border-radius: 10px;
     
 
     
@@ -116,6 +118,7 @@ main p {
 main ul li {
     text-align: center;
     list-style-position: inside;
+    list-style-type: none;
 
     
 
