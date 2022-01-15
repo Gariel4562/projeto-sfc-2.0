@@ -14,7 +14,7 @@ switch(t) {
     case 'Pelé' :
         res.innerHTML = `<h1>Pelé o rei do futebol</h1> <ul> <br> <br> Feitos pelo Santos fc : <br> <br> <li> Jogou no Santos profissionalmente de 1956 até 1974. </li>  <li> fez 1091 Gols pelo Santos. </li> <br> Titulos que Pelé ganhou jogando pelo Santos :<br> <br> <li> 6 Campeonatos brasileiros. </li> <li> 2 Copas Libertadores </li> <li> 2 Mundiais interclubes.
         </li> <li> 10 Campeonatos paulistas na época que o paulista era o torneio mais importante do pais.
-        </li> <li> 3 Torneio-rio-sp. </li> <li> 1 recopa mundial. </li>
+        </li> <li> 4 Torneio-rio-sp. </li> <li> 1 recopa mundial. </li>
         <li> 1 Supercopa Sul Americana. </li>
 
 
@@ -100,7 +100,30 @@ switch(t) {
                                     </ul>`
                                     img.setAttribute('src', 'imagens/araken.jpg')
                                     break;
-
+                                    case 'Coutinho' :
+                                      res.innerHTML = `<h1>Coutinho</h1> <ul> <br> <br> Feitos pelo Santos fc : <br> <br> <li> Jogou no Santos profissionalmente de 1958 até 1968. </li>  <li> fez 370 Gols pelo Santos. </li> <br> Titulos que Coutinho ganhou jogando pelo Santos :<br> <br> <li> 5 Campeonatos brasileiros. </li> <li> 2 Copas Libertadores. </li> <li> 2 Mundiais interclubes.
+                                      </li> <li> 6 Campeonatos paulistas na época que o paulista era o torneio mais importante do pais.
+                                      </li> <li> 4 Torneio-rio-sp. </li> 
+                                      
+                              
+                              
+                                    </ul>
+                                      </ul>`
+                                      img.setAttribute('src', 'imagens/coutinho.jpg')
+                                      break;
+                                      case 'Pepe' :
+                                      res.innerHTML = `<h1>Pepe</h1> <ul> <br> <br> Feitos pelo Santos fc : <br> <br> <li> Jogou no Santos profissionalmente de 1954 até 1969. (Santos foi o único clube que Pepe jogou na carreira inteira) </li>  <li> fez 405 Gols pelo Santos. </li> <br> Titulos que Pepe ganhou jogando pelo Santos :<br> <br> <li> 6 Campeonatos brasileiros. </li> <li> 2 Copas Libertadores. </li> <li> 2 Mundiais interclubes.
+                                      </li> <li> 11 Campeonatos paulistas na época que o paulista era o torneio mais importante do pais.
+                                      </li> <li> 4 Torneio-rio-sp. </li> 
+                                      <li> 1 recopa mundial. </li>
+                                      <li> 1 Supercopa Sul Americana. </li>
+                                      
+                              
+                              
+                                    </ul>
+                                      </ul>`
+                                      img.setAttribute('src', 'imagens/pepe.jpg')
+                                      break;
                                     default:
                                         res.innerHTML = `<br>O Jogador não existe nos nossos dados ou você digitou errado, digite igual está na lista acima para obter informações do jogador do Peixão.<br>`
                                         break;
