@@ -209,7 +209,7 @@ a {
       overflow-x: hidden;
     }
     .nav-list {
-      position: absolute;
+      position: fixed;
       top: 8vh;
       right: 0;
       width: 35vw;
