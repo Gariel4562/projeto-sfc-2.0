@@ -68,6 +68,10 @@ main article aside h2 {
     
 }
 
+main article aside ul li {
+  list-style-position: none;
+}
+
 img {
     width:100%;
 }
