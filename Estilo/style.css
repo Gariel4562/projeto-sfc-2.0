@@ -67,9 +67,8 @@ main article aside h2 {
     margin-bottom: 10px;
     
 }
-
-main article aside ul li {
-  list-style-position: none;
+.santosli {
+  list-style: none;
 }
 
 img {
