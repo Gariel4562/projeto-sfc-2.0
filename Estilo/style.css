@@ -67,7 +67,8 @@ main article aside h2 {
     margin-bottom: 10px;
     
 }
-.santosli {
+
+main article aside ul li {
   list-style: none;
 }
 
