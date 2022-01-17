@@ -23,10 +23,18 @@
       <nav> <!--nav is other internal pages to browse-->
         
              
-            <a href="index02.html">Titulos</a>
-            <a href="index03.html">Jogadores</a>
-            <a href="index04.html">Gols</a>
-            <a href="index05.html">Videos</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index02.html">Titulos</a></li>
+          <li><a href="index03.html">Jogadores</a></li>
+          <li><a href="index04.html">Gols</a></li>
+          <li><a href="index05.html">videos</a></li>
+        </ul>
     
     
         
@@ -60,14 +68,14 @@
           
       </main>
 
-      <div>
+      <div id="diiv">
         <p>Na barra de busca coloque o nome do jogador que deseja verificar exatamente como está nas listas acima, nome do jogador com a primeira letra Maiúscula.</p>
   
         <p><input type="text" name="t1" id="t1">
         <input type="button" value="verificar" onclick = "pesquisar()"></p>
         <div id="res"></div> <!--aqui vai aparecer as imagens e informações.-->
   
-        <p><a href="index.html">Click aqui</a> para voltar para a pagina principal.</p>
+        
   
   
       </div>
@@ -80,8 +88,8 @@
 
     </footer>
 
-
-    <script src="script01.js"></script>
+     <script src="js/mobile-navbar.js"></script>
+    <script src="js/script01.js"></script>
 
 
 
