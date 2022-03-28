@@ -43,27 +43,18 @@
 
   </nav>
 
-  <main>
-    <p>Digite um dos nomes e clique no botão "verificar" para procurar informações sobre os jogadores :</p>
-    <ul>
-      <li>Pelé</li>
-      <li>Carlos Alberto Torres</li>
-      <li>Zito</li>
-      
-
-
-
-    </ul>
-
-
-    
-</main>
 
 <div id="diiv">
-  <p>Na barra de busca coloque o nome do jogador que deseja verificar exatamente como está nas listas acima, nome do jogador com a primeira letra Maiúscula.</p>
+  
 
-  <p><input type="text" name="t1" id="t1">
-  <input type="button" value="verificar" onclick = "pesquisar()"></p>
+  <p>
+   Nome do Jogador : <select name="t1" id="t1">
+      <option value="Pelé">Pelé</option>
+      <option value="Carlos Alberto Torres">Carlos Alberto Torres</option>
+      <option value="Zito">Zito</option>
+    </select>
+    <input type="button" value="Verificar" onclick = "pesquisar()">
+  </p>
   <div id="res"></div> <!--aqui vai aparecer as imagens e informações.-->
 
   
