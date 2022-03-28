@@ -33,7 +33,7 @@ switch(t) {
             img.setAttribute('src', 'imagens/robinho.jpg')
             break;
             case 'Neymar' :
-                res.innerHTML = `<h1>Neymar o Maior artilheiro do Santos fc pós era Pelé
+                res.innerHTML = `<h1>Neymar 
                 </h1> <ul> <br> <br> Feitos pelo Santos fc : <br> <br> <li>  Jogou no Santos profissionalmente de 2009 - 2013. </li>  <li> Fez 138 Gols pelo Santos sendo o Maior artilheiro pós era Pelé. </li> <br> Titulos que Neymar Conquistou jogando pelo Santos : <br> <br> <li> 1 Copa Libertadores. </li> <li> 1 Copa do Brasil. </li> <li> 1 Recopa sul americana.
                 </li> <li> 3 Campeonatos Paulistas.</li>
         
