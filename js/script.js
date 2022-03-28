@@ -34,7 +34,7 @@ function pesquisar () {
             res.innerHTML = `<br><li>Santos fc foi campeão da recopa sul americana no ano de 2012.</li><br>`
         img.setAttribute('src', 'imagens/recopa sul americana.jpg')
         break;
-        case 'Supercopa sul americana' :
+        case 'Supercopa s americana' :
             res.innerHTML = `<br><li>Santos fc foi campeão da supercopa sul americana no ano de 1968.</li><br>`
         img.setAttribute('src', 'imagens/supercopa sul americana.jpg')
         break;

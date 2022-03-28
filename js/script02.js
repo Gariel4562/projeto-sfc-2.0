@@ -14,7 +14,7 @@ switch(t) {
       res.innerHTML = "<h1> Pelé em finais de copas do mundo : <br> <br> </h1> <ul>  <li> Pelé foi convocado para a Copa do Mundo de 58 e fez 6 Gols naquela copa, sendo 2 na final e ajudou a seleção a ganhar a copa do mundo pela primeira vez. </li> <br> <li> Pelé na final da Copa de 1970 fez 1 Gol e deu 2 assistências, além de ter feito 4 gols e 7 assistências na copa inteira e ajudou a seleção a ser tricampeã do mundo. </li> </ul> <br> "
       img.setAttribute('src', 'imagens/pelé.jpeg')
       break;
-    case 'Carlos Alberto Torres' :
+    case 'Carlos Alberto' :
         res.innerHTML = "<h1> Carlos Alberto torres em finais de copas do mundo : <br> <br> </h1> <ul> <li> Na final da copa de 1970 contra a Italia Carlos Alberto torres fez um gol e ajudou a seleção a ser Tricampeã do mundo. </li> </ul> <br> " 
         img.setAttribute('src', 'imagens/carlos alberto.jpg')
         break;
