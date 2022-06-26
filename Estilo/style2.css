@@ -19,6 +19,12 @@
 
 body {
     background-color: rgba(0, 0, 0, 0.726);
+    height:96vh;
+    background-image: url('../imagens/memorial.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 
 
 
@@ -165,6 +171,7 @@ a {
       right: 0;
       width: 35vw;
       height: 55vh;
+      border-radius: 20px 0px 0px 20px;
       background: black;
       flex-direction: column;
       align-items: center;
