@@ -75,22 +75,11 @@ main p {
 }
 
 div.video {
-    padding:20px;
-    
-    position:relative;
-    
+    padding:20px;   
 }
 
 div.video > iframe {
-    
-    
-    
     width:100%;
-    
-
-
-
-
 
 }
 
@@ -160,7 +149,7 @@ a {
     margin: 8px;
     transition: 0.3s;
     
-    
+     
   }
   
   @media (max-width: 999px) {
