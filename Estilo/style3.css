@@ -19,6 +19,11 @@
 
 body {
     background-color: rgba(0, 0, 0, 0.726);
+    height:96vh;
+    background-image: url('../imagens/lendas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
 
 
@@ -87,7 +92,7 @@ footer {
     color: white;
     text-align: center;
     
-    margin-top: 370px;
+    margin-top: 500px;
     
 }
 
