@@ -15,7 +15,7 @@ function pesquisar () {
           img.setAttribute('src', 'imagens/parar guerra.jpg')
           break;
         case 'Pentacampeao Brasileiro' :
-            res.innerHTML = "<h1> Pentacampeao Brasileiro. 1961 - 1965 : <br> <br> </h1> <ul> <li> O Santos FC Foi o unico Clube brasileiro que conseguiu vencer Cinco Vezes seguidas o Campeonato brasileiro 1961, 1962, 1963, 1964, 1965 pelo menos ate o presente ano 2022. </li> </ul> <br> " 
+            res.innerHTML = "<h1> Pentacampeao Brasileiro 1961 - 1965. : <br> <br> </h1> <ul> <li> O Santos FC Foi o unico Clube brasileiro que conseguiu vencer Cinco Vezes seguidas o Campeonato brasileiro 1961, 1962, 1963, 1964, 1965 pelo menos ate o presente ano 2022. </li> </ul> <br> " 
             img.setAttribute('src', 'imagens/historico.jpeg')
             break;
         case 'Eleito pela Fifa' :
